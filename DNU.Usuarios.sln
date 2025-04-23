@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNU.Usuarios.APIService", "DNU.Usuarios.APIService\DNU.Usuarios.APIService.csproj", "{B7AA0DE9-DBCD-42FD-A1BF-46CC7FC3E8EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNU.Usuarios.Common", "DNU.Usuarios.Common\DNU.Usuarios.Common.csproj", "{AFC103AD-94B0-44E1-8F83-01BCA61381C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNU.Usuarios.DataContract", "DNU.Usuarios.DataContract\DNU.Usuarios.DataContract.csproj", "{238AE191-9C70-4C86-AA67-D99343D18DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7AA0DE9-DBCD-42FD-A1BF-46CC7FC3E8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AA0DE9-DBCD-42FD-A1BF-46CC7FC3E8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AA0DE9-DBCD-42FD-A1BF-46CC7FC3E8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AA0DE9-DBCD-42FD-A1BF-46CC7FC3E8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC103AD-94B0-44E1-8F83-01BCA61381C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC103AD-94B0-44E1-8F83-01BCA61381C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC103AD-94B0-44E1-8F83-01BCA61381C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC103AD-94B0-44E1-8F83-01BCA61381C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238AE191-9C70-4C86-AA67-D99343D18DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238AE191-9C70-4C86-AA67-D99343D18DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238AE191-9C70-4C86-AA67-D99343D18DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238AE191-9C70-4C86-AA67-D99343D18DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50E8E469-4573-4F79-8D63-465D5DD60EB2}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://64.34.163.109:9090/tfs/dnu_codigofuente
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DNU.Usuarios.Common\\DNU.Usuarios.Common.csproj
+		SccProjectName1 = DNU.Usuarios.Common
+		SccLocalPath1 = DNU.Usuarios.Common
+		SccProjectUniqueName2 = DNU.Usuarios.APIService\\DNU.Usuarios.APIService.csproj
+		SccProjectName2 = DNU.Usuarios.APIService
+		SccLocalPath2 = DNU.Usuarios.APIService
+		SccProjectUniqueName3 = DNU.Usuarios.DataContract\\DNU.Usuarios.DataContract.csproj
+		SccProjectName3 = DNU.Usuarios.DataContract
+		SccLocalPath3 = DNU.Usuarios.DataContract
+	EndGlobalSection
+EndGlobal
