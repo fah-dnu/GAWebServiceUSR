@@ -1,0 +1,41 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: Automatización de Compilación
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: windows-2019 # Utilizar un entorno windows "antiguo" para poder compilar a .NET 4.6.1 como destino 
+
+    steps:
+    - uses: actions/checkout@v4 # Revisar el contenido del repositorio
+    #- name: Setup .NET
+     # uses: actions/setup-dotnet@v4 # Instalar .NET para el uso ded comandos como dotnet build o restore
+      #with:
+        #dotnet-version: 4.6.X
+    
+    #- name: Build
+     # run: dotnet build D:\a\prueba\prueba\ElProcesador\Core\Procesador\Procesador.csproj --no-restore --configuration Release # La bandera --no-restore es porque se especifica en la línea superior que se restauren las dependencias y el comando build las restaura implícitamente
+
+    - name: Ubicar y listar directorio
+      run: |
+          pwd
+    
+    #- name: Add msbuild to PATH
+     # uses: microsoft/setup-msbuild@v2
+
+    #- name: Build app for release
+     # run: msbuild D:\a\prueba\prueba\ElProcesador\Core\Procesador\Procesador.csproj -t:rebuild -verbosity:minimal -property:Configuration=Release -p:OutDir=D:\a\prueba\prueba\ElProcesador\Core\Procesador\bin\
+
+    #- name: Subir Artefactos  
+     # uses: actions/upload-artifact@v4  # Subir los archivos del directorio a un artefacto
+      #with:
+       # name: Archivos Compilados
+        #path: D:\a\prueba\prueba\ElProcesador\Core\Procesador\bin\
