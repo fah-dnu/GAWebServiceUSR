@@ -27,6 +27,7 @@ jobs:
     - name: Ubicar y listar directorio
       run: |
           pwd
+          ls
     
     #- name: Add msbuild to PATH
      # uses: microsoft/setup-msbuild@v2
